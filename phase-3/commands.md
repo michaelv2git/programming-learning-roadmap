@@ -1,12 +1,12 @@
 # VER LA VERSIÓN DE GIT Y SABER SI ESTÁ INSTALADO
 * git --versión
 
-# INGRESAR O QUITAR EL USUARIO
+# INGRESAR USUARIO Y CORREO
 * git config --global user.name "michaelv2git"
-* git config --global --unset user.name "michaelv2git"
-
-# INGRESAR O QUITAR EL CORREO
 * git config --global user.email "michaelhenaov2@gmail.com"
+
+# QUITAR USUARIO Y CORREO
+* git config --global --unset user.name "michaelv2git"
 * git config --global --unset user.email "michaelhenaov2@gmail.com"
 
 # CONFIGURAR POR DEFECTO EL EDITOR QUE USAMOS, EN ESTE CASO VISUAL STUDIO CODE
