@@ -21,3 +21,15 @@
 
 # CONFIGURACIONES ESTABLECIDAS
 * git config --global --list
+
+# ELIMINAR HISTORIAL ACTUAL
+* history - c
+
+# SOBREESCRIBE EL HISTORIAL DESDE EL DISCO DURO
+* history - w
+
+# DIRECTORIO HISTORIAL
+* C:\Users\TuNombreDeUsuario\.bash_history
+
+# VER DIRECTORIO HISTORIAL
+* echo $HISTFILE
