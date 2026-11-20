@@ -18,3 +18,7 @@
 
 # VAR
 * Declarar una variable que puede funciona de manera global. o sea, para reservar memoria de manera permanente. Cuando una función se ejecuta, esta no dejará de ejecutarse hasta que la aplicación no se cierre, y así, hasta ese momento, se liberará memoria.
+
+# ARRAY
+* Si volvemos al mismo ejemplo de las variables, el de la caja, basicamente es el mismo proceso, podemos guardar sola cosa, por ejemplo, esferos. La diferencia, es que en la caja tendremos varios separadores. Digamos que en el primero guarda un esfero con un grosor de 0,4 mm de grosor en la punta, en el segundo separador un esfero con un grosor de 1,0 mm, y en el último y tercero, tenemos un esfero con un grosor de 1,4 mm.
+Una caracterìstica interesante, es que un array desde JavaScript corriendo con Node.js, tiene un límite de carácteres, que es de 80 carácteres por línea.
