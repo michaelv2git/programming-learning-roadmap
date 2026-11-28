@@ -14,4 +14,5 @@ let quantity = 3;
 let subtotal = swordPrice * quantity;
 let iva = subtotal * TAX_RATE;
 let total = subtotal + iva;
+
 console.log(`Sumercé compró ${quantity} espadas por un subtotal de $${subtotal.toFixed(2)} con IVA de $${iva.toFixed(2)} y un total de $${total.toFixed(2)}.`);
