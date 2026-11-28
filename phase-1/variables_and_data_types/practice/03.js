@@ -1,25 +1,18 @@
-// declarar una variable que se llame inputAge con un valor tipo String 17
-// declarar otra variable que se llame inputCoins con un valor tipo String 150.75
-// convertir inputAge a un valor tipo Number con una variable age
-// convertir inputCoins a un valor tipo Number con una variable coins
-// variable totalCoins que sume las coins con las 50 monedas de bono al depositar
-// crear una variable tipo Boolean que evalúe si la persona mayor o igual de 18
-// imprimir la edad convertida, el total de monedas (con decimales) y si es mayor o igual de 18
+// const
+// operadores aritméticos
+// .toFixed
+// declarar un variable const llamada TAX_RATE (0.16 (16%))
+// declarar variable let llamada swordPrice (precio espada) (250.50)
+// declarar variable let llamada quantity (cantidad de espadas) (3)
+// calcular el subtotal
+// calcular el total sumando el impuesto con el subtotal
+// imprimir mostrando la cantidad comprada, el subtotal y el total
 
-let inputAge = "17";
-let inputCoins = "150.75";
-let age = inputAge = Number(inputAge);
-let coins = inputCoins = Number(inputCoins);
-let bonoDeposito = 50;
-totalCoins = coins + bonoDeposito;
+const TAX_RATE = 0.16;
+let swordPrice = 250.50;
+let quantity = 3;
+let subtotal = swordPrice * quantity;
+let iva = subtotal * TAX_RATE;
+let total = subtotal + iva;
 
-if (age >= 18) {
-    console.log(`La edad es ${age} teniendo un total de monedas de ${totalCoins.toFixed(2)}. ¿Es mayor de edad? ${true}`);
-} else {
-    console.log(`La edad es ${age} teniendo un total de monedas de ${totalCoins.toFixed(2)}. ¿Es mayor de edad? ${false}`);
-}
-
-
-
-
-// console.log(`La edad es ${age} teniendo un total de monedas de ${totalCoins.toFixed(2)}. ¿Es mayor de edad? ${age}`);
+console.log(`Sumercé compró ${quantity} espadas por un subtotal de $${subtotal.toFixed(2)} con IVA de $${iva.toFixed(2)} y un total de $${total.toFixed(2)}.`);
